@@ -1,0 +1,33 @@
+{
+  "name": "wd201level03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajkr97/wd201LEVEL03.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajkr97/wd201LEVEL03/issues"
+  },
+  "homepage": "https://github.com/surajkr97/wd201LEVEL03#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "husky": "^8.0.2",
+    "jest": "^29.3.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  }
+}
