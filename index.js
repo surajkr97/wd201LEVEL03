@@ -30,7 +30,7 @@ const todoList = () => {
       // FILL YOUR CODE HERE
       let OUTPUT_STRING = "";
       list.forEach(item => {
-        OUTPUT_STRING += `[${item.completed ? "X" : " "}] ${item.title} ${item.dueDate === formattedDate(new Date()) ? "" : item.dueDate}\n`
+        OUTPUT_STRING += `[${item.completed ? "x" : " "}] ${item.title} ${item.dueDate === formattedDate(new Date()) ? "" : item.dueDate}\n`
         });
         return OUTPUT_STRING.trim();
     }
